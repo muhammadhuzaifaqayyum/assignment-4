@@ -10,11 +10,11 @@ function sumOfEvenNumbers(numbers) {
     }
     return sum;
 }
-let sum = sumOfEvenNumbers([17, 9, 6, 10, 4, 18, 20]);
+let sum = sumOfEvenNumbers([65, 4, 7, 14, 38, 18, 60]);
 
 console.log("Sum of even numbers is " + sum);
 
-// ******************************************************
+// -------------------------------------------------------
 
 
 
@@ -37,9 +37,9 @@ function countVowels(string) {
     }
     return count;
 }
-console.log("Vowels are " + countVowels("Arqam Sarwar"));
+console.log("Vowels are " + countVowels("Muhammad Huzaifa Qayyum"));
 
-// ******************************************************
+// -------------------------------------------------------
 
 
 
@@ -62,7 +62,7 @@ let strings = ["apple", "strawberry", "banana", "grapes", "pear"]
 
 findStringLength(strings);
 
-// *******************************************************
+// -------------------------------------------------------
 
 
 
@@ -81,7 +81,7 @@ let result = average([7, 1, 6, 8, 2]);
 
 console.log("Average is " + result);
 
-// ******************************************************
+// -------------------------------------------------------
 
 
 
@@ -90,8 +90,8 @@ console.log("Average is " + result);
 function findKeys() 
 {
     let person = {
-        name: "Arqam",
-        age: 22,
+        name: "Huzaifa",
+        age: 20,
         city: "Karachi",
     };
 
@@ -100,7 +100,7 @@ function findKeys()
 
 console.log(findKeys());
 
-// ******************************************************
+// -------------------------------------------------------
 
 
 
@@ -117,15 +117,15 @@ function objectKeyValues(person) {
 }
 
 let person = [
+    { name: "Huzaifa", age: 20 },
     { name: "Arqam", age: 22 },
-    { name: "Ahmed", age: 18 },
-    { name: "Ali", age: 20 },
+    { name: "Ayan", age: 21 },
 ];
 
 result = objectKeyValues(person);
 console.log(result);
 
-// *******************************************************
+// -------------------------------------------------------
 
 
 
@@ -150,7 +150,7 @@ let arr = ["apple", "banana", "apple", "pear", "pear", "orange", "orange"]
 
 uniqueStrings(arr);
 
-// *******************************************************
+// -------------------------------------------------------
 
 
 
